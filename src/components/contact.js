@@ -38,7 +38,7 @@ const Contact = () => {
                 <label>Enter Query / Feedback </label>
                 <textarea type = 'text' placeholder = 'Enter feedback  '
                 onChange = {(event)=>{
-                    setName(event.target.value)
+                    setMessage(event.target.value)
                 }}>
                 </textarea>
                 
